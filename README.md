@@ -10,7 +10,7 @@ Kelas : Sistem Informasi B 2024
 
 
 ## Struktur Program
-1. **Menggunakan Package Main** yang berguna untuk mengelompokkan class-class yang berhubungan agar lebih terorganisir.
+1. **Penggunakan Package Main** yang berguna untuk mengelompokkan class-class yang berhubungan agar lebih terorganisir.
 
    <img width="327" height="31" alt="image" src="https://github.com/user-attachments/assets/f9aeafec-98c6-418a-95ad-7fbced461558" />
 
@@ -26,7 +26,8 @@ Kelas : Sistem Informasi B 2024
 
    ***Output***
 
-   Dibawa ini merupakan output dari penerapan 'ArrayList', yang menghasilkan list-list data yang telah dimasukkanke dalam program sebelumnya.
+   Dibawah ini merupakan output dari penerapan 'ArrayList', yang menghasilkan list-list data yang telah dimasukkanke dalam program sebelumnya.
+
    <img width="769" height="148" alt="image" src="https://github.com/user-attachments/assets/d271b2a9-eadf-474e-a6e5-570a4e740f57" />
 
 3. ### **Menu Utama**
@@ -36,8 +37,8 @@ Kelas : Sistem Informasi B 2024
    <img width="840" height="329" alt="image" src="https://github.com/user-attachments/assets/e8d5e6c0-0b58-4c32-8831-c5447d139c62" />
 
 4. ### **Case 1**
-   - Penggunaan 'Switch-case', agar user lebih mudah memilih nomor pilihan yang disetiap nomor memiliki nilai dan variabel yang berbeda-beda.
-   - Pada case 1, berfungsi untuk menambahkan festival baru ke dalam daftar festival lalu memberi konfirmasi bahwa data berhasil ditambahkan.
+   - Penggunaan 'Switch-case', agar user lebih mudah memilih menu yang dimana setiap nomor menu memiliki nilai dan variabel yang berbeda-beda.
+   - Pada case 1, berfungsi untuk menambahkan festival baru ke dalam daftar festival lalu program akan memberi konfirmasi bahwa data berhasil ditambahkan.
 
    <img width="742" height="296" alt="image" src="https://github.com/user-attachments/assets/78932515-9b3d-439a-96bd-bb03a64302ca" />
 
@@ -58,6 +59,7 @@ Kelas : Sistem Informasi B 2024
 
 6. ### **Case 3**
    - Pada case 3, berfungsi untuk mengubah data mulai dari Nama, Asal dan Tanggal pelaksanaan Festival. Jika user ingin mengubah data maka program akan mengarahkan user untuk memasukkan nomor festival yang ingin diubah.
+   - Jika user memilih nomor yang tidak ada dalam data maka program akan menampilkan konfirmasi bahwa "Nomor Tidak Valid!"
    <img width="1216" height="725" alt="image" src="https://github.com/user-attachments/assets/ab0809d6-bb52-43e4-87e1-4c14aa18c627" />
 
    ***Output***
@@ -65,17 +67,37 @@ Kelas : Sistem Informasi B 2024
    
    <img width="743" height="252" alt="image" src="https://github.com/user-attachments/assets/55c92100-b141-4e35-af97-8a8cfe2e8773" />
 
+   ***Data sebelum diubah***
+
+   <img width="762" height="168" alt="image" src="https://github.com/user-attachments/assets/9ec99be2-7839-4bde-ad00-260e000362c1" />
+
    ***Data setelah diubah***
 
    <img width="771" height="171" alt="image" src="https://github.com/user-attachments/assets/fb785500-1f79-431f-9dcf-221b1518d137" />
 
-7. ### **Case 4**
-   - Pada case 4, berfungsi untuk menghapus data yang ingin dihapus dengan memasukkan nomor festival yang ingin dihapus. Setelah festival dihapus maka otomatis program akan merapikan dan menampilkan list yang sesuai setelah data dihapus.  
+8. ### **Case 4**
+   - Pada case 4, berfungsi untuk menghapus data yang ingin dihapus dengan memasukkan nomor festival yang ingin dihapus. Setelah festival dihapus maka otomatis program akan merapikan dan menampilkan list yang sesuai setelah data dihapus.
+   - Jika user memilih nomor yang tidak ada dalam data maka program akan menampilkan konfirmasi bahwa "Nomor Tidak Valid!"
    <img width="875" height="689" alt="image" src="https://github.com/user-attachments/assets/7cda5b5c-f198-4ca7-a556-898944afff4c" />
 
    ***Output***
    
    <img width="774" height="424" alt="image" src="https://github.com/user-attachments/assets/a09312a4-f6e3-453f-8715-3cedf6a33a76" />
+
+   
+
+9. ### **Case 5**
+   Pada case 5, jika user memilih nomor 5 dari pilihan menu yang ada maka otomatis program akan selesai.
+
+   <img width="472" height="52" alt="image" src="https://github.com/user-attachments/assets/2dbddc9b-e9bf-4f2c-9711-6abed809c17d" />
+
+   ***Output***
+
+   <img width="361" height="43" alt="image" src="https://github.com/user-attachments/assets/f5702236-7dd2-4e2b-ac89-b50c25035e21" />
+
+
+
+
 
 
 
