@@ -41,6 +41,7 @@ Kelas : Sistem Informasi B 2024
    ***Output***
    - Menampilkan input yang akan dimasukkan oleh user mulai dari Nama festival, Asal dan Taggal pelaksaan.
    - Setelah memasukkan data maka akan diberikan konfirmasi bahwa data berhasil ditambahkan.
+
    <img width="407" height="231" alt="image" src="https://github.com/user-attachments/assets/9d4adf45-992b-4570-b004-c563bffcd412" />
 
 5. ### **Case 2**
