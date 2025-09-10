@@ -6,7 +6,8 @@ NIM : 2409116048
 
 Kelas : Sistem Informasi B 2024
 
-**Penjelasan Singkat terkait Program :**
+## Penjelasan Singkat terkait Program
+Pada program ini berguna dalam menampung informasi data dari Festival Budaya mulai dari nama festival, asal festival dan tanggal pelaksanaan festival. Dalam program ini menyediakan opsi untuk menambahkan festival baru, menampilkan daftar festival dalam format tabel rapi, mengubah data festival berdasarkan nomor urut, serta menghapus festival sekaligus memperbarui daftar agar tetap berurutan. Proses menu dijalankan menggunakan perulangan do-while dan struktur switch-case, dilengkapi validasi agar input nomor yang dipilih sesuai dengan data yang ada.
 
 
 ## Struktur Program
@@ -19,7 +20,7 @@ Kelas : Sistem Informasi B 2024
    <img width="330" height="59" alt="image" src="https://github.com/user-attachments/assets/b5f350d5-10ee-46e0-921d-d5bacd077a19" />
    
 ## Alur Program
-1. ### **Deklarasi Scanner & Inputan Awal**
+### 1. **Deklarasi Scanner & Inputan Awal**
    Program ini menggunakan Class Main yang sedari awal sudah mendeklarasikan scanner untuk membaca inputan dan program telah diisi dengan beberapa data awal agar saat pertama dijalankan daftar festival tidak kosong.
 
    <img width="1256" height="323" alt="image" src="https://github.com/user-attachments/assets/1bf99633-b298-4290-8092-a9739ba26766" />
@@ -30,13 +31,13 @@ Kelas : Sistem Informasi B 2024
 
    <img width="769" height="148" alt="image" src="https://github.com/user-attachments/assets/d271b2a9-eadf-474e-a6e5-570a4e740f57" />
 
-3. ### **Menu Utama**
+### 3. **Menu Utama**
    - Menggunakan 'int pilihan' untuk menyimpan angka menu yang akan dipilih user.
    - Penggunaan 'do-while' agar menu selalu muncul berulang sampai user yang memilih untuk keluar dari program.
 
    <img width="840" height="329" alt="image" src="https://github.com/user-attachments/assets/e8d5e6c0-0b58-4c32-8831-c5447d139c62" />
 
-4. ### **Case 1**
+### 4. **Case 1**
    - Penggunaan 'Switch-case', agar user lebih mudah memilih menu yang dimana setiap nomor menu memiliki nilai dan variabel yang berbeda-beda.
    - Pada case 1, berfungsi untuk menambahkan festival baru ke dalam daftar festival lalu program akan memberi konfirmasi bahwa data berhasil ditambahkan.
 
@@ -48,7 +49,7 @@ Kelas : Sistem Informasi B 2024
 
    <img width="407" height="231" alt="image" src="https://github.com/user-attachments/assets/9d4adf45-992b-4570-b004-c563bffcd412" />
 
-5. ### **Case 2**
+### 5. **Case 2**
    - Pada case 2, berfungsi untuk menampilkan daftar festival budaya yang tersimpan di dalam festivalList. Dengan menampilkan data data festival yang sudah tersedia maupun yang baru saja ditambahkan.
 
    <img width="1387" height="353" alt="image" src="https://github.com/user-attachments/assets/e553125d-d5db-4df3-9a82-334dce13ce47" />
@@ -57,7 +58,7 @@ Kelas : Sistem Informasi B 2024
 
     <img width="772" height="221" alt="image" src="https://github.com/user-attachments/assets/d14d6e57-22a2-4467-b7d0-0dc7e825b32c" />
 
-6. ### **Case 3**
+### 6. **Case 3**
    - Pada case 3, berfungsi untuk mengubah data mulai dari Nama, Asal dan Tanggal pelaksanaan Festival. Jika user ingin mengubah data maka program akan mengarahkan user untuk memasukkan nomor festival yang ingin diubah.
    - Jika user memilih nomor yang tidak ada dalam data maka program akan menampilkan konfirmasi bahwa "Nomor Tidak Valid!"
    <img width="1216" height="725" alt="image" src="https://github.com/user-attachments/assets/ab0809d6-bb52-43e4-87e1-4c14aa18c627" />
@@ -75,7 +76,7 @@ Kelas : Sistem Informasi B 2024
 
    <img width="771" height="171" alt="image" src="https://github.com/user-attachments/assets/fb785500-1f79-431f-9dcf-221b1518d137" />
 
-8. ### **Case 4**
+### 7. **Case 4**
    - Pada case 4, berfungsi untuk menghapus data yang ingin dihapus dengan memasukkan nomor festival yang ingin dihapus. Setelah festival dihapus maka otomatis program akan merapikan dan menampilkan list yang sesuai setelah data dihapus.
    - Jika user memilih nomor yang tidak ada dalam data maka program akan menampilkan konfirmasi bahwa "Nomor Tidak Valid!"
    <img width="875" height="689" alt="image" src="https://github.com/user-attachments/assets/7cda5b5c-f198-4ca7-a556-898944afff4c" />
@@ -86,7 +87,7 @@ Kelas : Sistem Informasi B 2024
 
    
 
-9. ### **Case 5**
+### 8. **Case 5**
    Pada case 5, jika user memilih nomor 5 dari pilihan menu yang ada maka otomatis program akan selesai.
 
    <img width="472" height="52" alt="image" src="https://github.com/user-attachments/assets/2dbddc9b-e9bf-4f2c-9711-6abed809c17d" />
